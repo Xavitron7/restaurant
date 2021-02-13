@@ -14,6 +14,8 @@ body {
     --header-2: #999;
     --header-text: #ddd;
     --background: #dedede;
+    --nav-hover-bg: #222;
+    --nav-hover-text: #eee;
 }
 
 header {
@@ -30,15 +32,21 @@ ul {
     justify-content: space-between;
 }
 
-li {
+.nav-link {
     display: inline-block;
     border: 1px solid black;
     padding: 20px;
     width: 33%;
     text-align: center;
     cursor: pointer;
+    transition: 0.2s;
 }
 
+.nav-link:hover {
+    background-color: var(--nav-hover-bg);
+    color: var(--nav-hover-text);
+
+}
 
 
 .main {
