@@ -51,11 +51,11 @@ ul {
 
 .main {
     margin-top: 20px;
+    text-align: center;
+
 }
 
 .about {
-    text-align: center;
-    border: 1px solid red;
     line-height: 2rem;
     height: 75vh;
     padding: 150px 0 0 0;
@@ -74,4 +74,16 @@ footer{
     font-size: 0.8rem;
     padding: 10px 0;
     text-align: center;
+}
+
+.menuFrame {
+    display:grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    height: 75vh;
+    width: 80vw;
+    margin: 20px auto 0 auto;
+}
+
+.menuItem {
+    border: 2px solid black;
 }
